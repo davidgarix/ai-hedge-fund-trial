@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# Environment Variables
+.env
+.envrc
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.cursorrules
+.cursorignore
+.cursorindexingignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Graphviz / Diagrams / Output
+*.png
+*.pdf
+*.txt # More general text output if not code/config
+
+# Data directories
+src/data/
+# app/backend/data/ # Add if backend uses a data directory
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and Coverage
+*.log
+*.logs
+*.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+
+# Frontend (app/frontend/ and root if applicable)
+node_modules/ # Global node_modules
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/.vite/
+app/frontend/.eslintcache
+# Add other frontend build/cache dirs if they exist e.g.
+# app/frontend/.output/
+# .next/ # If Next.js was ever at the root
+
+# Backend specific (app/backend/)
+# If the backend creates local db files or specific logs:
+# app/backend/*.sqlite3
+# app/backend/logs/
